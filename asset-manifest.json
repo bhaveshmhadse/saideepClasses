@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/saideepClasses/static/css/main.9212a6ab.chunk.css",
+    "main.js": "/saideepClasses/static/js/main.97a46f7e.chunk.js",
+    "main.js.map": "/saideepClasses/static/js/main.97a46f7e.chunk.js.map",
+    "runtime-main.js": "/saideepClasses/static/js/runtime-main.8802f8c0.js",
+    "runtime-main.js.map": "/saideepClasses/static/js/runtime-main.8802f8c0.js.map",
+    "static/js/2.ca1e2b83.chunk.js": "/saideepClasses/static/js/2.ca1e2b83.chunk.js",
+    "static/js/2.ca1e2b83.chunk.js.map": "/saideepClasses/static/js/2.ca1e2b83.chunk.js.map",
+    "index.html": "/saideepClasses/index.html",
+    "static/css/main.9212a6ab.chunk.css.map": "/saideepClasses/static/css/main.9212a6ab.chunk.css.map",
+    "static/js/2.ca1e2b83.chunk.js.LICENSE.txt": "/saideepClasses/static/js/2.ca1e2b83.chunk.js.LICENSE.txt",
+    "static/media/HemantSir.b445fee2.jpg": "/saideepClasses/static/media/HemantSir.b445fee2.jpg",
+    "static/media/MhadseSir.e3511c13.jpg": "/saideepClasses/static/media/MhadseSir.e3511c13.jpg",
+    "static/media/accountant.b4a6888a.png": "/saideepClasses/static/media/accountant.b4a6888a.png",
+    "static/media/biology.04c1e78e.png": "/saideepClasses/static/media/biology.04c1e78e.png",
+    "static/media/calculating.ce1c6bef.png": "/saideepClasses/static/media/calculating.ce1c6bef.png",
+    "static/media/chemistry.0a4c2cae.png": "/saideepClasses/static/media/chemistry.0a4c2cae.png",
+    "static/media/economic.51aa5047.png": "/saideepClasses/static/media/economic.51aa5047.png",
+    "static/media/english.71a02e53.png": "/saideepClasses/static/media/english.71a02e53.png",
+    "static/media/management.b491b5f0.png": "/saideepClasses/static/media/management.b491b5f0.png",
+    "static/media/mansittingonbooks.806cae00.jpg": "/saideepClasses/static/media/mansittingonbooks.806cae00.jpg",
+    "static/media/om.384a7327.png": "/saideepClasses/static/media/om.384a7327.png",
+    "static/media/onlineeducation.504361ce.jpg": "/saideepClasses/static/media/onlineeducation.504361ce.jpg",
+    "static/media/physics.ad58acc2.png": "/saideepClasses/static/media/physics.ad58acc2.png",
+    "static/media/saideepClasses1.1ca1bb96.jpg": "/saideepClasses/static/media/saideepClasses1.1ca1bb96.jpg",
+    "static/media/saideepClasses2.e0a4b63d.jpg": "/saideepClasses/static/media/saideepClasses2.e0a4b63d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8802f8c0.js",
+    "static/js/2.ca1e2b83.chunk.js",
+    "static/css/main.9212a6ab.chunk.css",
+    "static/js/main.97a46f7e.chunk.js"
+  ]
+}
