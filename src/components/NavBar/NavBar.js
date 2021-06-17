@@ -62,7 +62,7 @@ const NavBar = () => {
         </div>
         <ul className='uul'>
           <div>
-            <Link className='link' to='/'>
+            <Link className='link' to='/saideepClasses'>
               <img
                 alt="image"
                 src={Home}

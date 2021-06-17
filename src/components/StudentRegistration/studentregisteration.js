@@ -2,10 +2,8 @@ import React from 'react';
 import Student from './Student';
 import OnlineStudy from '../Courses/Images/onlineeducation.jpg';
 import GuySittingOnBooks from '../Courses/Images/mansittingonbooks.jpg';
-import URLL from '../URL';
 import './borderLeftYellow.css';
 import { useState } from 'react';
-import axios from 'axios';
 const StudentReg = () => {
   let [display, setDisplay] = useState('none');
   let [close, setclose] = useState(false);
@@ -93,16 +91,16 @@ const StudentReg = () => {
               listStyle: 'outside',
             }}
           >
-            <li style={{ textAlign: 'left', marginBottom: '.2rem' }} className='right'>
+            <li style={{ textAlign: 'left', marginBottom: '.6rem' }} className='right'>
               Regular Online Lectures
             </li>
-            <li style={{ textAlign: 'left', marginBottom: '.2rem' }} className='right'>
+            <li style={{ textAlign: 'left', marginBottom: '.6rem' }} className='right'>
               24/7 Students Doubt Solving
             </li>
-            <li style={{ textAlign: 'left', marginBottom: '.2rem' }} className='right'>
+            <li style={{ textAlign: 'left', marginBottom: '.6rem' }} className='right'>
               Weekly Mock Test/Exams
             </li>
-            <li style={{ textAlign: 'left', marginBottom: '.2rem' }} className='right'>
+            <li style={{ textAlign: 'left', marginBottom: '.6rem' }} className='right'>
               Study Material Notes Provided
             </li>
           </ul>

@@ -15,6 +15,7 @@
   padding: 1rem;
   border-left-color: yellow;
   border-left-style: solid;
+  border-left-width: 1.5vh;
 }
 
 .standard:hover {

@@ -17,7 +17,7 @@ const App = () => {
       <div>
         <NavBar />
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/saideepClasses'>
             <p style={{ marginTop: '-80vh', width: 'auto' }}></p>
             <Intro />
             <StudentReg />
