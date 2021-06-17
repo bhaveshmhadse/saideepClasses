@@ -1,0 +1,56 @@
+.cont {
+  /* width: auto; */
+  width: 35vw;
+  /* float: left; */
+  padding: 0.4rem;
+
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 8px rgb(111, 109, 109);
+  border-left-color: rgb(3, 174, 204);
+  border-left-style: solid;
+}
+
+/* .break {
+  position: relative;
+  width: 100vw;
+  height: 10vw;
+} */
+
+.cont:hover {
+  border-left-color: yellow;
+  box-shadow: 0 12px 18px rgb(111, 109, 109);
+  transition: all ease-in-out 150ms;
+}
+
+@media (min-width: 800px) {
+  .cont {
+    text-align: center;
+    width: 20vw;
+    height: auto;
+  }
+  .batch-image {
+    margin-top: auto;
+  }
+}
+
+.batch-name {
+  /* text-align: right; */
+  /* float: center; */
+  /* margin: auto; */
+  /* text-justify: distribute; */
+  /* padding-right: 0.5rem; */
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: black;
+}
+
+.batch-image {
+  width: 4vh;
+  /* height: auto; */
+  border-radius: 3rem;
+  float: left;
+  /* text-align: left; */
+  /* margin: 0.1rem; */
+  box-shadow: 0 2px 12px rgb(111, 109, 109);
+}

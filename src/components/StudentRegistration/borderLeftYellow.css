@@ -1,0 +1,15 @@
+.left {
+  border-left-color: yellow;
+  border-left-style: solid;
+  border-left-width: 2px;
+}
+.right {
+  border-right-color: yellow;
+  border-right-style: solid;
+  border-right-width: 2px;
+}
+.upper {
+  border-top-color: yellow;
+  border-top-style: solid;
+  /* border-top-width: 2px; */
+}

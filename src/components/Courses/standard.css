@@ -1,0 +1,31 @@
+.standard {
+  cursor: pointer;
+  /* float: center; */
+  width: auto;
+  padding: 0.2rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 8px rgb(111, 109, 109);
+}
+
+.courses {
+  width: auto;
+  font-weight: 800;
+  padding: 1rem;
+  border-left-color: yellow;
+  border-left-style: solid;
+}
+
+.standard:hover {
+  box-shadow: 0 4px 10px rgb(111, 109, 109);
+  color: white;
+  background: yellow;
+  transition: all ease-in-out 300ms;
+}
+.name {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: black;
+  padding: 0rem 1rem 0rem 1rem;
+}

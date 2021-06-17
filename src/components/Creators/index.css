@@ -1,0 +1,97 @@
+* {
+  margin: 0 auto;
+  text-align: center;
+  outline: none;
+}
+
+.main {
+  height: auto;
+  width: auto;
+  margin: 10vh auto auto auto;
+  margin-bottom: 0;
+  display: block;
+}
+
+.card {
+  background-color: transparent;
+  margin: 0 auto 3vh auto;
+  height: auto;
+  width: auto;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.ownername {
+  /* border-left-style: solid; */
+  /* border-left-width: 3px; */
+  /* border-left-color: yellow; */
+  color: black;
+  padding-bottom: 0.2rem;
+  font-weight: 700;
+  /* font-size: 30rem; */
+  /* margin-bottom: 3vh; */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-size: 1.8rem;
+}
+
+.experience {
+  font-size: 1.2rem;
+  font-weight: 700;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  padding-bottom: 2rem;
+  color: rgb(80, 80, 80);
+}
+
+.profile {
+  cursor: grab;
+  width: 12rem;
+  border-radius: 10rem;
+  filter: drop-shadow(2px 2px 10px black);
+  /* rgba(0, 0, 0, 0.2)); */
+}
+
+.info {
+  text-align: justify;
+  margin-bottom: 3vh;
+  margin-top: 2vh;
+  color: rgb(58, 56, 56);
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 3vh;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.highlight {
+  color: rgb(10, 77, 7);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.contact {
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  box-shadow: 3px 2px 5px black;
+  cursor: pointer;
+}
+.contact:hover {
+  background-color: green;
+  color: white;
+  font-weight: 900;
+  transition: all ease-in-out 300ms;
+}
+
+.container {
+  padding: 1rem;
+}
+
+@media (min-width: 800px) {
+  .card {
+    float: left;
+    width: 40vw;
+    margin: 2rem;
+    background: orange;
+  }
+}
