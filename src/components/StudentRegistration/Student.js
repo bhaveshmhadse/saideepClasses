@@ -70,6 +70,8 @@ const Student = props => {
         padding: '1rem',
         background: 'white',
         position: 'fixed',
+        zIndex: "999",
+        // backdropFilter: "dropShadow(10px 10px 10px black)",
         width: '80vw',
         height: 'auto',
         top: '40vh',
@@ -86,10 +88,7 @@ const Student = props => {
       >
         <button
           style={{
-            //   position: 'fixed',
-            //   top: '35vh',
-            //   left: '80vw',
-            //   zIndex: '200',
+
             textAlign: 'left',
             float: 'right',
             fontSize: '1rem',

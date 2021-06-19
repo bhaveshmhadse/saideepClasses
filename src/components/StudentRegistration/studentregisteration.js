@@ -10,32 +10,21 @@ const StudentReg = () => {
 
   return (
     <div>
-      {close && (
-        <button
-          style={{
-            position: 'fixed',
-            top: '35vh',
-            left: '80vw',
-            zIndex: '200',
-            fontSize: '1rem',
-            padding: '.2rem',
-            width: '10vw',
-            margin: 'auto',
-            borderRadius: '.4rem',
-            outline: 'none',
-            color: 'black',
-            fontWeight: '800',
-            boxShadow: '0 4px 10px grey',
-            borderColor: 'transparent',
-          }}
-          onClick={() => {
-            setDisplay('none');
-            setclose(false);
-          }}
-        >
-          X
-        </button>
-      )}
+      {close &&
+        (
+          <div style={{ width: '100vw', height: '110vh', margin: 0, padding: '2rem', display: 'flex', backdropFilter: 'blur(10px)', position: 'fixed', zIndex: 999, top: '0vh' }}>
+
+            <button
+              className="closeButton"
+              onClick={() => {
+                setDisplay('none');
+                setclose(false);
+              }}
+            >
+              X
+            </button>
+          </div>
+        )}
       <h1 style={{ borderRadius: '.3rem' }} className='courses'>
         Online Faculty
       </h1>
@@ -73,9 +62,8 @@ const StudentReg = () => {
           <p
             className='left'
             style={{
-              marginBottom: '2vh',
               width: 'auto',
-              marginTop: '3vh',
+              marginTop: '5vh',
               textAlign: 'left',
               fontSize: '1.5rem',
               paddingLeft: '1rem',

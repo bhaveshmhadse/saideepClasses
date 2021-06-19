@@ -21,6 +21,7 @@ const Course = () => {
   return (
     <div style={{ height: 'auto', width: 'auto' }}>
       <h1 className='courses'>Courses</h1>
+      <div style={{ width: "auto", height: "auto", color: "darkorange", marginTop: "2vh", textAlign: "left", padding: "1rem", fontWeight: "600", fontSize: "1.3rem", marginBottom: "-5vh" }}>Select Your Course :</div>
       <div
         style={{
           marginTop: '3vh',

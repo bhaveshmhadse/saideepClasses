@@ -35,6 +35,25 @@
   color: rgb(80, 80, 80);
 }
 
+.closeButton {
+  backdrop-filter: blur(1px);
+  position: fixed;
+  top: 35vh;
+  left: 80vw;
+  z-index: 999;
+  font-size: 1rem;
+  padding: 0.2rem;
+  width: 10vw;
+  margin: auto;
+  border-radius: 0.4rem;
+  outline: none;
+  color: black;
+  font-weight: 800;
+  box-shadow: 0 4px 10px grey;
+  border-color: transparent;
+  backdrop-filter: blur(100px);
+}
+
 .profile {
   cursor: grab;
   width: 12rem;

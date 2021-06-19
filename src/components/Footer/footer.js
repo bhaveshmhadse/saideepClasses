@@ -16,7 +16,7 @@ const Footer = () => {
           marginTop: '1rem',
           fontWeight: '800',
           color: 'white',
-          fontSize: '1.3rem',
+          fontSize: '1.5rem',
           paddingBottom: '1rem',
         }}
       >
@@ -26,7 +26,7 @@ const Footer = () => {
         style={{
           fontWeight: '400',
           color: 'white',
-          fontSize: '.8rem',
+          fontSize: '.7rem',
           paddingBottom: '1rem',
         }}
       >
@@ -38,7 +38,7 @@ const Footer = () => {
           marginTop: '1rem',
           fontWeight: '800',
           color: 'white',
-          fontSize: '1.3rem',
+          fontSize: '1.5rem',
           paddingBottom: '1rem',
         }}
       >
@@ -60,7 +60,7 @@ const Footer = () => {
             marginLeft: '1rem',
             color: 'grey',
           }}
-          href='https://www.whatsapp.com/+9136298868'
+          href='https://www.wa.me/+919136298868'
         >
           9136298868
         </a>
@@ -80,17 +80,16 @@ const Footer = () => {
             // marginLeft: '1rem',
             color: 'grey',
           }}
-          href='https://www.whatsapp.com/+9136298868'
+          href='https://www.wa.me/+919136298868'
         >
           9136298868
         </a>
       </p>
 
-      {/* <div style={{ width: 'auto', textAlign: 'center', background: 'red' }}> */}
       <p
         style={{
           marginTop: '3vh',
-          fontSize: '1.2rem',
+          fontSize: '1.5rem',
           fontWeight: '900',
           color: 'white',
         }}
@@ -99,8 +98,7 @@ const Footer = () => {
       </p>
       <p
         style={{
-          fontSize: '.8rem',
-          // textAlign: 'right',
+          fontSize: '.7rem',
           fontWeight: '900',
           color: 'rgb(55, 53, 53)',
           color: 'grey',
@@ -118,7 +116,7 @@ const Footer = () => {
         }}
       >
         Design -&nbsp;
-        <a style={{ color: 'yellow', textDecoration: 'none', fontSize: '.7rem' }} href='https://www.whatsapp.com/+9136298868'>
+        <a style={{ color: 'yellow', textDecoration: 'none', fontSize: '.7rem' }} href='https://www.wa.me/+919136298868'>
           Bhavesh Mhadse
         </a>
       </p>

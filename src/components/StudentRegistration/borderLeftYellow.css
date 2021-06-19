@@ -1,15 +1,14 @@
 .left {
-  border-left-color: yellow;
+  border-left-color: gold;
   border-left-style: solid;
-  border-left-width: 1vh;
+  border-left-width: 0.7vh;
 }
 .right {
-  border-right-color: yellow;
+  border-right-color: gold;
   border-right-style: solid;
-  border-right-width: 1vh;
+  border-right-width: 0.7vh;
 }
 .upper {
-  border-top-color: yellow;
+  border-top-color: gold;
   border-top-style: solid;
-  /* border-top-width: 1vh; */
 }

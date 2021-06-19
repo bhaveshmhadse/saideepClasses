@@ -30,7 +30,9 @@
   height: 15vh;
   display: flex;
   box-shadow: 0 1px 8px rgb(158, 141, 6);
-  background-color: rgb(238, 238, 27);
+  /* background-color: rgb(238, 238, 27); */
+  /* background-color: rgb(8, 169, 8); */
+  background-color: gold;
 }
 .navbarc {
   width: auto;
@@ -55,11 +57,13 @@
 }
 
 .navbar button:hover {
-  /* box-shadow: 0 5px 8px rgb(158, 141, 6); */
-  /* transform: translateY(-0.2rem); */
   transform: rotate(180deg);
   border-radius: 100rem;
   transition: all ease-in-out 1s;
+}
+
+.sidebar {
+  background: gold;
 }
 
 .sidebarbutton {

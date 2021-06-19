@@ -17,11 +17,12 @@ const NavBar = () => {
   let [visibility, setVisibility] = useState('');
 
   return (
-    <div>
+    <div style={{ background: "gold" }}>
       <div
         style={{
-
           marginTop: '0',
+          // background: "gold",
+          background: "lightgrey",
         }}
         className={`normal ${visibility}`}
       >
@@ -36,7 +37,9 @@ const NavBar = () => {
             width: 'inherit',
             position: 'fixed',
             top: '10vh',
+            background: "lightgrey",
           }}
+          className="sidebar"
         >
           <h1
             style={{
@@ -62,7 +65,7 @@ const NavBar = () => {
         </div>
         <ul className='uul'>
           <div>
-            <Link className='link' to='/saideepClasses'>
+            <Link onClick={() => setVisibility('hide')} className='link' to='/saideepClasses'>
               <img
                 alt="image"
                 src={Home}
@@ -76,7 +79,7 @@ const NavBar = () => {
             </Link>
           </div>
           <div>
-            <Link className='link' to='/Auth'>
+            <Link onClick={() => setVisibility('hide')} className='link' to='/Auth'>
               <img
                 alt="image"
                 src={Authentication}
@@ -90,7 +93,7 @@ const NavBar = () => {
             </Link>
           </div>
           <div>
-            <Link className='link' to='/Owners'>
+            <Link onClick={() => setVisibility('hide')} className='link' to='/Owners'>
               <img
                 alt="image"
                 src={Owners}
@@ -104,7 +107,7 @@ const NavBar = () => {
             </Link>
           </div>
           <div>
-            <Link className='link' to='/Contact'>
+            <Link onClick={() => setVisibility('hide')} className='link' to='/Contact'>
               <img
                 alt="image"
                 src={Contact}
@@ -118,7 +121,7 @@ const NavBar = () => {
             </Link>
           </div>
           <div>
-            <Link className='link' to='/Enquire'>
+            <Link onClick={() => setVisibility('hide')} className='link' to='/Enquire'>
               <img
                 alt="image"
                 src={Help}
@@ -142,12 +145,12 @@ const NavBar = () => {
         className='navbar'
       >
         <button style={{ borderColor: 'transparent', boxShadow: 'none' }} onClick={() => setVisibility('show')}>
-          <img src={HamBurger}></img>
+          <img style={{ width: "3.5vh" }} src={HamBurger}></img>
         </button>
         <img alt="image" src={Flower} className='rotate'></img>
         <h1>Saideep Classes</h1>
       </div>
-    </div>
+    </div >
   );
 };
 

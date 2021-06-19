@@ -1,24 +1,16 @@
 .cont {
-  /* width: auto; */
-  width: 35vw;
-  /* float: left; */
+  width: 40vw;
   padding: 0.4rem;
-
   border-radius: 0.5rem;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 2px 8px rgb(111, 109, 109);
   border-left-color: rgb(3, 174, 204);
+  border-left-width: 1vh;
   border-left-style: solid;
 }
 
-/* .break {
-  position: relative;
-  width: 100vw;
-  height: 10vw;
-} */
-
 .cont:hover {
-  border-left-color: yellow;
+  border-left-color: gold;
   box-shadow: 0 12px 18px rgb(111, 109, 109);
   transition: all ease-in-out 150ms;
 }
@@ -35,22 +27,15 @@
 }
 
 .batch-name {
-  /* text-align: right; */
-  /* float: center; */
-  /* margin: auto; */
-  /* text-justify: distribute; */
-  /* padding-right: 0.5rem; */
   font-size: 1.2rem;
   font-weight: 800;
   color: black;
+  /* color: rgba(251, 255, 0, 0.576); */
 }
 
 .batch-image {
   width: 4vh;
-  /* height: auto; */
   border-radius: 3rem;
   float: left;
-  /* text-align: left; */
-  /* margin: 0.1rem; */
   box-shadow: 0 2px 12px rgb(111, 109, 109);
 }
