@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/saideepClasses/static/css/main.21c89c48.chunk.css",
-    "main.js": "/saideepClasses/static/js/main.d1fd6e28.chunk.js",
-    "main.js.map": "/saideepClasses/static/js/main.d1fd6e28.chunk.js.map",
+    "main.css": "/saideepClasses/static/css/main.6b33a0f4.chunk.css",
+    "main.js": "/saideepClasses/static/js/main.c2be4c06.chunk.js",
+    "main.js.map": "/saideepClasses/static/js/main.c2be4c06.chunk.js.map",
     "runtime-main.js": "/saideepClasses/static/js/runtime-main.8802f8c0.js",
     "runtime-main.js.map": "/saideepClasses/static/js/runtime-main.8802f8c0.js.map",
     "static/js/2.82cdaca7.chunk.js": "/saideepClasses/static/js/2.82cdaca7.chunk.js",
     "static/js/2.82cdaca7.chunk.js.map": "/saideepClasses/static/js/2.82cdaca7.chunk.js.map",
     "index.html": "/saideepClasses/index.html",
-    "static/css/main.21c89c48.chunk.css.map": "/saideepClasses/static/css/main.21c89c48.chunk.css.map",
+    "static/css/main.6b33a0f4.chunk.css.map": "/saideepClasses/static/css/main.6b33a0f4.chunk.css.map",
     "static/js/2.82cdaca7.chunk.js.LICENSE.txt": "/saideepClasses/static/js/2.82cdaca7.chunk.js.LICENSE.txt",
     "static/media/GaneshSIr.fac13abe.jpg": "/saideepClasses/static/media/GaneshSIr.fac13abe.jpg",
     "static/media/HemantSir.b445fee2.jpg": "/saideepClasses/static/media/HemantSir.b445fee2.jpg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.8802f8c0.js",
     "static/js/2.82cdaca7.chunk.js",
-    "static/css/main.21c89c48.chunk.css",
-    "static/js/main.d1fd6e28.chunk.js"
+    "static/css/main.6b33a0f4.chunk.css",
+    "static/js/main.c2be4c06.chunk.js"
   ]
 }
