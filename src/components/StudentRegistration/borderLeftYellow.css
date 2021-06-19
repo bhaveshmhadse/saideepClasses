@@ -11,4 +11,5 @@
 .upper {
   border-top-color: gold;
   border-top-style: solid;
+  border-top-width: 0.7vh;
 }

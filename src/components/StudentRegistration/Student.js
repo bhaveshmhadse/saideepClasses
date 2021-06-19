@@ -71,13 +71,12 @@ const Student = props => {
         background: 'white',
         position: 'fixed',
         zIndex: "999",
-        // backdropFilter: "dropShadow(10px 10px 10px black)",
         width: '80vw',
         height: 'auto',
         top: '40vh',
         left: '5vw',
         borderRadius: '.6rem',
-        boxShadow: '0 4px 8px grey',
+        boxShadow: '0 4px 15px grey',
       }}
       className='upper'
     >
@@ -166,12 +165,7 @@ const Student = props => {
           Contact :
         </h2>
         <input type='number' placeholder='contact no' onChange={handlePassword} className='input1' title='Please fill Your Password' required style={{ marginTop: '2vh', color: 'black' }} />
-        {/* <input
-            onChange={handleNumber}
-            // className='input1'
-            style={{ marginTop: '1rem', color: 'black' }}
-            type='text'
-          /> */}
+
       </div>
 
       <button
@@ -191,7 +185,7 @@ const Student = props => {
           boxShadow: '0 4px 8px grey',
         }}
       >
-        <a>Get Free Ebook!</a>
+        <a>Book My Free Class!!</a>
       </button>
     </div>
   );

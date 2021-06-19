@@ -13,7 +13,6 @@ const StudentReg = () => {
       {close &&
         (
           <div style={{ width: '100vw', height: '110vh', margin: 0, padding: '2rem', display: 'flex', backdropFilter: 'blur(10px)', position: 'fixed', zIndex: 999, top: '0vh' }}>
-
             <button
               className="closeButton"
               onClick={() => {
@@ -113,7 +112,7 @@ const StudentReg = () => {
                 boxShadow: '1px 4px 8px grey',
               }}
             >
-              Click For Surprise!!
+              Get Free Notes!
             </button>
           </div>
         </p>
