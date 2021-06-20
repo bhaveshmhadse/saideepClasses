@@ -21,8 +21,8 @@ const NavBar = () => {
       <div
         style={{
           marginTop: '0',
-          // background: "gold",
-          background: "lightgrey",
+          background: "gold",
+          // background: "lightgrey",
         }}
         className={`normal ${visibility}`}
       >
@@ -37,7 +37,8 @@ const NavBar = () => {
             width: 'inherit',
             position: 'fixed',
             top: '10vh',
-            background: "lightgrey",
+            // background: "lightgrey",
+            background: "gold",
           }}
           className="sidebar"
         >
