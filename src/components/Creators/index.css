@@ -52,6 +52,7 @@
   box-shadow: 0 4px 10px grey;
   border-color: transparent;
   backdrop-filter: blur(100px);
+  background: white;
 }
 
 .profile {

@@ -14,11 +14,10 @@ const Help = () => {
       axios.post(URLL + "/enquiry", {
         enquiry: enquiry
       })
-      alert("enquiry " + enquiry);
-      alert("Null " + Null);
+      alert("Succesfully Submitted your Enquiry!");
       return;
     }
-    alert("Please fill Null")
+    alert("Please fill Enquiry section!")
   }
 
   const handleEnquiry = (e) => {

@@ -76,7 +76,7 @@ const Student = props => {
         top: '40vh',
         left: '5vw',
         borderRadius: '.6rem',
-        boxShadow: '0 4px 15px grey',
+        boxShadow: '0 4px 10px grey',
       }}
       className='upper'
     >
@@ -102,7 +102,7 @@ const Student = props => {
             borderColor: 'transparent',
           }}
         >
-          <img src={Close}></img>
+          <img alt="closebutton" src={Close}></img>
         </button>
       </div>
 
@@ -164,7 +164,7 @@ const Student = props => {
         >
           Contact :
         </h2>
-        <input type='number' placeholder='contact no' onChange={handlePassword} className='input1' title='Please fill Your Password' required style={{ marginTop: '2vh', color: 'black' }} />
+        <input type='number' placeholder='Contact no' onChange={handlePassword} className='input1' title='Please fill Your Password' required style={{ marginTop: '2vh', color: 'black' }} />
 
       </div>
 
