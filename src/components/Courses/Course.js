@@ -19,9 +19,11 @@ const Course = () => {
   });
 
   return (
-    <div style={{ height: 'auto', width: 'auto' }}>
+    <div style={{ height: 'auto', width: 'auto', transition: 'all ease-in-out 1000ms' }}>
       <h1 className='courses'>Courses</h1>
-      <div style={{ width: "auto", height: "auto", color: "darkorange", marginTop: "2vh", textAlign: "left", padding: "1rem", fontWeight: "600", fontSize: "1.3rem", marginBottom: "-5vh" }}>Select Your Course :</div>
+      <div style={{ width: 'auto', height: 'auto', color: 'darkorange', marginTop: '2vh', textAlign: 'left', padding: '1rem', fontWeight: '600', fontSize: '1.3rem', marginBottom: '-5vh' }}>
+        Select Your Course :
+      </div>
       <div
         style={{
           marginTop: '3vh',
@@ -29,8 +31,7 @@ const Course = () => {
           display: 'grid',
           gridGap: '.9vh',
           gridTemplateColumns: '1fr 1fr 1fr 1fr',
-        }}
-      >
+        }}>
         <div onClick={() => setIndex(0)} className='standard'>
           <h1 className='name'>8th</h1>
         </div>
@@ -58,9 +59,7 @@ const Course = () => {
           width: 'auto',
           height: '5vh',
           color: 'darkorange',
-        }}
-      // className='font'
-      >
+        }}>
         {standard[index]}
       </h2>
 
@@ -72,8 +71,7 @@ const Course = () => {
           marginBottom: '10vh',
           gridTemplateColumns: '1fr 1fr ',
           gridGap: '2vh',
-        }}
-      >
+        }}>
         <Batch BatchInfo={subjectInfo[index]} />
       </div>
     </div>

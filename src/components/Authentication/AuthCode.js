@@ -22,11 +22,11 @@ const AuthCode = () => {
   return (
     <Router>
       <Route exact path='/Auth/Cred' component={Cred}></Route>
-      <div className='form'>
+      <div className='form' style={{ fontSize: '3vh' }}>
         CODE :
-        <input type='password' placeholder='Authentication Code' onChange={handleChange} className='input' />
+        <input type='password' placeholder='Authentication Code' onChange={handleChange} className='input1' />
         <div>
-          <button className='submit' onClick={submit}>
+          <button style={{ width: '50%' }} className='green-button' onClick={submit}>
             <Link to={check() ? '/Auth/Cred' : '/Auth'} className='td'>
               Verify
             </Link>

@@ -1,32 +1,45 @@
 .standard {
   cursor: pointer;
-  /* float: center; */
   width: auto;
+  display: flex;
+  place-items: center;
+  place-content: center;
   padding: 0.2rem;
   margin-top: 1rem;
   border-radius: 0.5rem;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0 2px 8px rgb(111, 109, 109);
+  filter: drop-shadow(10px 10px 5px lightgrey);
+  /* transition: all ease-in-out 1000ms; */
 }
 
+.standard:hover {
+  filter: drop-shadow(10px 10px 20px lightgrey);
+  color: white;
+  background: gold;
+  width: 25vw;
+  height: 4vh;
+}
 .courses {
+  transition: all ease-in-out 1000ms;
   width: auto;
   font-weight: 800;
   padding: 1rem;
+  user-select: none;
   border-left-color: gold;
   border-left-style: solid;
   border-left-width: 1.1vh;
 }
 
-.standard:hover {
-  box-shadow: 0 4px 10px rgb(111, 109, 109);
-  color: white;
-  background: gold;
-  transition: all ease-in-out 300ms;
-}
 .name {
+  transition: all ease-in-out 1000ms;
+
   font-size: 1.2rem;
   font-weight: 800;
   color: black;
   padding: 0rem 1rem 0rem 1rem;
+}
+.name:hover {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: black;
 }

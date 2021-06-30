@@ -59,18 +59,16 @@ const Users = () => {
 
   return (
     <>
-      <div className='form1'>
-        <p>
-          Username :
-          <input type='text' placeholder='username' onChange={handleUser} className='input1' title='Please fill Your UserName' required />
-        </p>
-        <br></br>
-        <p>
+      <div className='form' style={{ display: 'block', textAlign: 'left' }}>
+        <div style={{ width: '100%', marginBottom: '2vh', fontSize: '2.3vh' }}>
+          Username :<input type='text' style={{ paddingLeft: '2vh' }} placeholder='username' onChange={handleUser} className='input' title='Please fill Your UserName' required></input>
+        </div>
+        <div style={{ width: '100%', marginBottom: '2vh', fontSize: '2.3vh' }}>
           Password :
-          <input type='password' placeholder='password' onChange={handlePassword} className='input1' title='Please fill Your Password' required />
-        </p>
+          <input type='password' placeholder='password' style={{ paddingLeft: '2vh' }} onChange={handlePassword} className='input' title='Please fill Your Password' required />
+        </div>
         <div>
-          <button className='submit1' onClick={submit}>
+          <button className='green-button' onClick={submit}>
             Get Students List
           </button>
         </div>

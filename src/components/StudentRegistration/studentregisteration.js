@@ -10,54 +10,28 @@ const StudentReg = () => {
 
   return (
     <div>
-      {close &&
-        (
-          <div style={{ width: '100vw', height: '110vh', margin: 0, padding: '2rem', display: 'flex', backdropFilter: 'blur(10px)', position: 'fixed', zIndex: 999, top: '0vh' }}>
-            <button
-              className="closeButton"
-              onClick={() => {
-                setDisplay('none');
-                setclose(false);
-              }}
-            >
-              X
-            </button>
-          </div>
-        )}
+      {close && (
+        <div style={{ width: '100vw', height: '110vh', margin: 0, padding: '2rem', display: 'flex', backdropFilter: 'blur(10px)', position: 'fixed', zIndex: 999, top: '0vh' }}>
+          <button
+            className='closeButton'
+            onClick={() => {
+              setDisplay('none');
+              setclose(false);
+            }}>
+            X
+          </button>
+        </div>
+      )}
       <h1 style={{ borderRadius: '.3rem' }} className='courses'>
         Online Faculty
       </h1>
       <div style={{ width: 'auto', height: 'auto', marginTop: '10vh' }}>
-        <img
-          style={{
-            transform: 'translateY(-6vh) translateX(-10vw)',
-            width: '60vw',
-            borderRadius: '.3rem',
-            boxShadow: '0 2px 8px rgb(111, 109, 109)',
-          }}
-          src={OnlineStudy}
-          alt=''
-        />
-        <img
-          style={{
-            transform: 'translateY(-10vh) translateX(10vw)',
-            width: '55vw',
-            borderRadius: '.3rem',
-            boxShadow: '0 2px 8px rgb(111, 109, 109)',
-          }}
-          src={GuySittingOnBooks}
-          alt='Man Sitting'
-        />
+        <img className='slide-in-first' style={{ border: '0.001px solid lightgrey' }} src={OnlineStudy} alt='Teaching' />
+        <img className='slide-in-second' style={{ border: '0.001px solid lightgrey' }} src={GuySittingOnBooks} alt='Man Sitting' />
       </div>
-      <div style={{ textAlign: 'center' }}>
-        <p
-          style={{
-            marginTop: '-5vh',
-            textAlign: 'justify',
-            padding: '2vh',
-          }}
-        >
-          Due to Rising Covid situation we have been taking lectures through Online medium. There is an Excellent Faculty by us to educate Students.
+      <div style={{ textAlign: 'center', marginTop: '4vh' }}>
+        <p style={{ marginTop: '-5vh', textAlign: 'justify', padding: '2vh' }}>
+          Due to Rising <important>Covid</important> situation we have been taking lectures through Online medium. There is an Excellent Faculty by us to educate Students.
           <p
             className='left'
             style={{
@@ -66,8 +40,7 @@ const StudentReg = () => {
               textAlign: 'left',
               fontSize: '1.5rem',
               paddingLeft: '1rem',
-            }}
-          >
+            }}>
             Benifits:
           </p>
           <ul
@@ -76,8 +49,7 @@ const StudentReg = () => {
               textAlign: 'left',
               textDecoration: 'none',
               listStyle: 'outside',
-            }}
-          >
+            }}>
             <li style={{ textAlign: 'left', marginBottom: '.6rem' }} className='right'>
               Regular Online Lectures
             </li>
@@ -99,19 +71,19 @@ const StudentReg = () => {
               }}
               style={{
                 fontSize: '1rem',
-                marginTop: '2rem',
+                marginTop: '5vh',
+                marginBottom: '5vh',
                 padding: '.5rem',
-                width: '60vw',
-                borderRadius: '10rem',
+                width: '70vw',
+                borderRadius: '.5rem',
                 outline: 'none',
                 float: 'center',
-                background: 'rgb(0, 225, 44)',
+                background: '#1fd05d',
                 borderColor: 'transparent',
                 color: 'white',
                 fontWeight: '900',
-                boxShadow: '1px 4px 8px grey',
-              }}
-            >
+                filter: 'drop-shadow(10px 15px 10px rgb(205, 205, 205))',
+              }}>
               Get Free Notes!
             </button>
           </div>

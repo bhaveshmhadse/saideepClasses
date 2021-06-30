@@ -32,7 +32,7 @@
   margin-bottom: 1rem;
   background-color: transparent;
   margin-left: 0.6rem;
-  border-radius: 1rem;
+  border-radius: 0.1rem;
   padding: 0.3rem;
   font-size: 0.8rem;
   border-style: solid;
@@ -40,8 +40,9 @@
   border-top-width: 0.1px;
   border-left-width: 0.1px;
   border-right-width: 0.1px;
-  border-color: grey;
+  border-color: transparent;
   border-bottom-color: gold;
+  text-align: left;
   color: black;
   width: 30vw;
 }

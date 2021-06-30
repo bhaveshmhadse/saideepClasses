@@ -29,16 +29,15 @@ const App = () => {
       <div>
         <NavBar />
         <Switch>
-          <Route exact path='/saideepClasses'>
+          <Route exact path='/'>
             {showStudent && (
-              <div style={{ width: '100vw', height: '110vh', margin: 0, padding: '2rem', display: 'flex', backdropFilter: 'blur(10px)', position: 'fixed', zIndex: 999, top: '0vh' }}>
+              <div style={{ width: '100vw', height: '110vh', margin: 0, padding: '2rem', display: 'flex', backdropFilter: 'blur(20px)', position: 'fixed', zIndex: 999, top: '0vh' }}>
                 <Student display='block' />
                 <button
                   className='closeButton'
                   onClick={() => {
                     setShowStudent(false);
-                  }}
-                >
+                  }}>
                   X
                 </button>
               </div>

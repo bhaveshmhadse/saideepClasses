@@ -1,18 +1,27 @@
 .cont {
+  user-select: none;
   width: 40vw;
   padding: 0.4rem;
+  display: flex;
+  place-items: center;
+  place-content: center;
   border-radius: 0.5rem;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0 2px 8px rgb(111, 109, 109);
   border-left-color: rgb(3, 174, 204);
-  border-left-width: 1vh;
+  border-left-width: 0.6vh;
   border-left-style: solid;
+  filter: drop-shadow(10px 10px 15px grey);
+  transition: all ease-in-out 300ms;
 }
 
 .cont:hover {
+  width: 43vw;
+  height: 6vh;
+  margin: auto;
+  position: relative;
+  margin: auto;
   border-left-color: gold;
-  box-shadow: 0 12px 18px rgb(111, 109, 109);
-  transition: all ease-in-out 150ms;
+  filter: drop-shadow(10px 10px 40px grey);
 }
 
 @media (min-width: 800px) {
@@ -30,12 +39,12 @@
   font-size: 1.2rem;
   font-weight: 800;
   color: black;
-  /* color: rgba(251, 255, 0, 0.576); */
+  margin-right: auto;
 }
 
 .batch-image {
   width: 4vh;
   border-radius: 3rem;
-  float: left;
+  margin-right: auto;
   box-shadow: 0 2px 12px rgb(111, 109, 109);
 }

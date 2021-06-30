@@ -9,17 +9,15 @@ const Footer = () => {
         background: 'rgb(2, 37, 44)',
         textAlign: 'center',
         height: 'auto',
-      }}
-    >
+      }}>
       <h1
         style={{
           marginTop: '1rem',
           fontWeight: '800',
           color: 'white',
-          fontSize: '1.5rem',
+          fontSize: '3vh',
           paddingBottom: '1rem',
-        }}
-      >
+        }}>
         Address
       </h1>
       <h1
@@ -28,8 +26,7 @@ const Footer = () => {
           color: 'white',
           fontSize: '.7rem',
           paddingBottom: '1rem',
-        }}
-      >
+        }}>
         Pandurang Niwas, S.T. Stand Signal, Khopat, Thane (W)
       </h1>
 
@@ -38,10 +35,9 @@ const Footer = () => {
           marginTop: '1rem',
           fontWeight: '800',
           color: 'white',
-          fontSize: '1.5rem',
+          fontSize: '3vh',
           paddingBottom: '1rem',
-        }}
-      >
+        }}>
         Feel Free To Contact Us :
       </h1>
       <p
@@ -52,16 +48,14 @@ const Footer = () => {
           paddingRight: '1rem',
           marginRight: '1rem',
           display: 'inline-block',
-        }}
-      >
+        }}>
         <a
           style={{
             display: 'inline-block',
             marginLeft: '1rem',
             color: 'grey',
           }}
-          href='https://www.wa.me/+919136298868'
-        >
+          href='https://www.wa.me/+919136298868'>
           9136298868
         </a>
       </p>
@@ -73,15 +67,13 @@ const Footer = () => {
           paddingRight: '1rem',
           marginRight: '1rem',
           display: 'inline-block',
-        }}
-      >
+        }}>
         <a
           style={{
             // marginLeft: '1rem',
             color: 'grey',
           }}
-          href='https://www.wa.me/+919136298868'
-        >
+          href='https://www.wa.me/+919136298868'>
           9136298868
         </a>
       </p>
@@ -92,8 +84,7 @@ const Footer = () => {
           fontSize: '1.5rem',
           fontWeight: '900',
           color: 'white',
-        }}
-      >
+        }}>
         Copyright - Saideep Classes
       </p>
       <p
@@ -102,8 +93,7 @@ const Footer = () => {
           fontWeight: '900',
           color: 'rgb(55, 53, 53)',
           color: 'grey',
-        }}
-      >
+        }}>
         - Since 1991
       </p>
       {/* </div> */}
@@ -111,12 +101,12 @@ const Footer = () => {
         style={{
           color: 'white',
           marginTop: '1rem',
-          fontSize: '.9rem',
+          fontSize: '1.vh',
+
           textAlign: 'right',
-        }}
-      >
+        }}>
         Design -&nbsp;
-        <a style={{ color: 'yellow', textDecoration: 'none', fontSize: '.7rem' }} href='https://www.wa.me/+919136298868'>
+        <a style={{ color: 'yellow', textDecoration: 'none', fontSize: '1.3vh' }} href='https://wa.me/+918850326407'>
           Bhavesh Mhadse
         </a>
       </p>

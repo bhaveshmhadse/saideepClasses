@@ -1,4 +1,3 @@
-import React from 'react';
 import Close from '../Courses/Images/close.png';
 import Flower from '../Courses/Images/favicon.png';
 import HamBurger from '../Courses/Images/hamburger.png';
@@ -17,17 +16,16 @@ const NavBar = () => {
   let [visibility, setVisibility] = useState('');
 
   return (
-    <div style={{ background: "gold" }}>
+    <div style={{ background: 'gold' }}>
       <div
         style={{
           marginTop: '0',
-          background: "gold",
-          // background: "lightgrey",
+          background: 'gold',
+          filter: 'drop-shadow(10px 10px 20px grey)',
         }}
-        className={`normal ${visibility}`}
-      >
+        className={`normal ${visibility}`}>
         <button style={{ borderColor: 'transparent' }} className='sidebarbutton' onClick={() => setVisibility('hide')}>
-          <img alt="Close" src={Close}></img>
+          <img alt='Close' src={Close}></img>
         </button>
 
         <div
@@ -37,19 +35,16 @@ const NavBar = () => {
             width: 'inherit',
             position: 'fixed',
             top: '10vh',
-            // background: "lightgrey",
-            background: "gold",
+            background: 'gold',
           }}
-          className="sidebar"
-        >
+          className='sidebar'>
           <h1
             style={{
               paddingTop: '1rem',
               fontSize: '2.3rem',
               color: 'black',
               margin: 'auto',
-            }}
-          >
+            }}>
             Saideep Classes
           </h1>
           <h2
@@ -59,79 +54,73 @@ const NavBar = () => {
               color: 'maroon',
               margin: 'auto',
               top: '4vh',
-            }}
-          >
+            }}>
             28 Years Of Excellence
           </h2>
         </div>
         <ul className='uul'>
           <div>
-            <Link onClick={() => setVisibility('hide')} className='link' to='/saideepClasses'>
+            <Link onClick={() => setVisibility('hide')} className='link' to='/'>
               <img
-                alt="Home"
+                alt='Home'
                 src={Home}
                 style={{
                   paddingRight: '1rem',
                   width: '4vh',
                   textAlign: 'left',
-                }}
-              ></img>
+                }}></img>
               Home
             </Link>
           </div>
           <div>
             <Link onClick={() => setVisibility('hide')} className='link' to='/Auth'>
               <img
-                alt="Auth"
+                alt='Auth'
                 src={Authentication}
                 style={{
                   paddingRight: '1rem',
                   width: '4vh',
                   textAlign: 'left',
-                }}
-              ></img>
+                }}></img>
               Authentication
             </Link>
           </div>
           <div>
             <Link onClick={() => setVisibility('hide')} className='link' to='/Owners'>
               <img
-                alt="Owners"
+                alt='Owners'
                 src={Owners}
                 style={{
                   paddingRight: '1rem',
                   width: '4vh',
                   textAlign: 'left',
-                }}
-              ></img>
+                }}></img>
               Owners
             </Link>
           </div>
           <div>
             <Link onClick={() => setVisibility('hide')} className='link' to='/Contact'>
               <img
-                alt="Contact"
+                alt='Contact'
                 src={Contact}
                 style={{
                   paddingRight: '1rem',
                   width: '4vh',
                   textAlign: 'left',
-                }}
-              ></img>
+                }}></img>
               Contact
             </Link>
           </div>
           <div>
             <Link onClick={() => setVisibility('hide')} className='link' to='/Enquire'>
               <img
-                alt="Help"
+                alt='Help'
                 src={Help}
                 style={{
                   paddingRight: '1rem',
                   width: '4vh',
                   textAlign: 'left',
-                }}
-              ></img>
+                }}></img>
               Enquire
             </Link>
           </div>
@@ -143,15 +132,14 @@ const NavBar = () => {
           height: '8vh',
           margin: '0',
         }}
-        className='navbar'
-      >
+        className='navbar'>
         <button style={{ borderColor: 'transparent', boxShadow: 'none' }} onClick={() => setVisibility('show')}>
-          <img alt="Hamburger" style={{ width: "3.5vh" }} src={HamBurger}></img>
+          <img alt='Hamburger' style={{ width: '3.5vh' }} src={HamBurger}></img>
         </button>
-        <img alt="Flower" src={Flower} className='rotate'></img>
+        <img alt='Flower' src={Flower} className='rotate'></img>
         <h1>Saideep Classes</h1>
       </div>
-    </div >
+    </div>
   );
 };
 
