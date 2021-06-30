@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Cred from './Credential';
+import Credential from './Credential';
 import './Auth.css';
 
 const AuthCode = () => {
   const AUTHENTICATION_CODE = 'Saideep_1991';
   const [code, changeCode] = useState('');
+  const [showCred, changeshowCred] = useState(false);
 
   const handleChange = e => {
     e.preventDefault();
@@ -13,27 +13,26 @@ const AuthCode = () => {
   };
 
   const submit = () => {
-    if (!(code === AUTHENTICATION_CODE)) alert('Please Enter Valid Credential!!');
+    if (code === AUTHENTICATION_CODE) {
+      changeshowCred(true);
+      return;
+    }
+    alert('Please Enter Secret Code!');
   };
 
-  const check = () => {
-    return code === AUTHENTICATION_CODE;
-  };
   return (
-    <Router>
-      <Route exact path='/Auth/Cred' component={Cred}></Route>
+    <>
+      {showCred && <Credential />}
       <div className='form' style={{ fontSize: '3vh' }}>
         CODE :
         <input type='password' placeholder='Authentication Code' onChange={handleChange} className='input1' />
         <div>
           <button style={{ width: '50%' }} className='green-button' onClick={submit}>
-            <Link to={check() ? '/Auth/Cred' : '/Auth'} className='td'>
-              Verify
-            </Link>
+            Verify
           </button>
         </div>
       </div>
-    </Router>
+    </>
   );
 };
 

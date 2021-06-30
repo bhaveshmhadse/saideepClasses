@@ -60,7 +60,7 @@ const NavBar = () => {
         </div>
         <ul className='uul'>
           <div>
-            <Link onClick={() => setVisibility('hide')} className='link' to='/'>
+            <Link onClick={() => setVisibility('hide')} className='link' to='/saideepClasses'>
               <img
                 alt='Home'
                 src={Home}
@@ -73,7 +73,7 @@ const NavBar = () => {
             </Link>
           </div>
           <div>
-            <Link onClick={() => setVisibility('hide')} className='link' to='/Auth'>
+            <Link onClick={() => setVisibility('hide')} className='link' to='/saideepClasses/Auth'>
               <img
                 alt='Auth'
                 src={Authentication}
@@ -86,7 +86,7 @@ const NavBar = () => {
             </Link>
           </div>
           <div>
-            <Link onClick={() => setVisibility('hide')} className='link' to='/Owners'>
+            <Link onClick={() => setVisibility('hide')} className='link' to='/saideepClasses/Owners'>
               <img
                 alt='Owners'
                 src={Owners}
@@ -99,7 +99,7 @@ const NavBar = () => {
             </Link>
           </div>
           <div>
-            <Link onClick={() => setVisibility('hide')} className='link' to='/Contact'>
+            <Link onClick={() => setVisibility('hide')} className='link' to='/saideepClasses/Contact'>
               <img
                 alt='Contact'
                 src={Contact}
@@ -112,7 +112,7 @@ const NavBar = () => {
             </Link>
           </div>
           <div>
-            <Link onClick={() => setVisibility('hide')} className='link' to='/Enquire'>
+            <Link onClick={() => setVisibility('hide')} className='link' to='/saideepClasses/Enquire'>
               <img
                 alt='Help'
                 src={Help}

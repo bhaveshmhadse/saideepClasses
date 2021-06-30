@@ -41,7 +41,7 @@ const StudentReg = () => {
               fontSize: '1.5rem',
               paddingLeft: '1rem',
             }}>
-            Benifits:
+            <important className='left'>Benifits:</important>
           </p>
           <ul
             style={{

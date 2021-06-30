@@ -29,7 +29,7 @@ const App = () => {
       <div>
         <NavBar />
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/saideepClasses'>
             {showStudent && (
               <div style={{ width: '100vw', height: '110vh', margin: 0, padding: '2rem', display: 'flex', backdropFilter: 'blur(20px)', position: 'fixed', zIndex: 999, top: '0vh' }}>
                 <Student display='block' />
@@ -48,10 +48,10 @@ const App = () => {
             <Course />
             <Footer />
           </Route>
-          <Route path='/Auth' component={AuthCode} />
-          <Route path='/Contact' component={Contact} />
-          <Route path='/Owners' component={Owners} />
-          <Route path='/Enquire' component={Help} />
+          <Route exact path='/saideepClasses/Auth' component={AuthCode} />
+          <Route exact path='/saideepClasses/Contact' component={Contact} />
+          <Route exact path='/saideepClasses/Owners' component={Owners} />
+          <Route exact path='/saideepClasses/Enquire' component={Help} />
           <Route component={NotFound} />
         </Switch>
       </div>
