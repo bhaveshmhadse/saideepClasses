@@ -5,7 +5,7 @@ import GuySittingOnBooks from '../Courses/Images/mansittingonbooks.jpg';
 import './borderLeftYellow.css';
 import { useState } from 'react';
 const StudentReg = () => {
-  let [display, setDisplay] = useState('none');
+  let [showStudent, setShowStudent] = useState(false);
   let [close, setclose] = useState(false);
 
   return (
@@ -15,7 +15,6 @@ const StudentReg = () => {
           <button
             className='closeButton'
             onClick={() => {
-              setDisplay('none');
               setclose(false);
             }}>
             X
@@ -66,30 +65,27 @@ const StudentReg = () => {
           <div>
             <button
               onClick={() => {
-                setclose(true);
-                setDisplay('grid');
+                setShowStudent(true);
               }}
-              style={{
-                fontSize: '1rem',
-                marginTop: '5vh',
-                marginBottom: '5vh',
-                padding: '.5rem',
-                width: '70vw',
-                borderRadius: '.5rem',
-                outline: 'none',
-                float: 'center',
-                background: '#1fd05d',
-                borderColor: 'transparent',
-                color: 'white',
-                fontWeight: '900',
-                filter: 'drop-shadow(10px 15px 10px rgb(205, 205, 205))',
-              }}>
-              Get Free Notes!
+              style={{ width: '50vw' }}
+              className='green-button'>
+              Enroll
             </button>
           </div>
         </p>
       </div>
-      <Student display={display} />
+      {showStudent && (
+        <div style={{ width: '100vw', height: '110vh', margin: 0, padding: '2rem', display: 'flex', backdropFilter: 'blur(20px)', position: 'fixed', zIndex: 999, top: '0vh' }}>
+          <Student content='Enroll' />
+          <button
+            className='closeButton'
+            onClick={() => {
+              setShowStudent(false);
+            }}>
+            X
+          </button>
+        </div>
+      )}
     </div>
   );
 };

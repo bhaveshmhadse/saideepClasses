@@ -6,17 +6,12 @@ import Close from '../Courses/Images/close.png';
 import axios from 'axios';
 
 import URLL from '../URL';
-import { useEffect } from 'react';
 
 const Student = props => {
   let [email, setemail] = useState('');
   let [number, setnumber] = useState('');
   let [name, setname] = useState('');
-  let [show, setShow] = useState('none');
-
-  useEffect(() => {
-    setShow(props.display);
-  }, []);
+  let [info, setInfo] = useState(props.content);
 
   const handlePassword = e => {
     e.preventDefault();
@@ -60,7 +55,7 @@ const Student = props => {
   return (
     <div
       style={{
-        display: `${show}`,
+        display: `block`,
         gridTemplateColumns: '1fr',
         padding: '1rem',
         background: 'aliceblue',
@@ -108,7 +103,8 @@ const Student = props => {
           style={{
             textAlign: 'left',
             width: '30vw',
-            fontSize: '1.5rem',
+            fontSize: '5.5vw',
+            fontWeight: '800',
             marginTop: '-1vh',
           }}>
           Email :
@@ -126,7 +122,8 @@ const Student = props => {
           style={{
             textAlign: 'left',
             width: '30vw',
-            fontSize: '1.5rem',
+            fontSize: '5.5vw',
+            fontWeight: '800',
             marginTop: '-1vh',
           }}>
           Name :
@@ -144,16 +141,17 @@ const Student = props => {
           style={{
             textAlign: 'left',
             width: '30vw',
-            fontSize: '1.5rem',
+            fontSize: '5.5vw',
+            fontWeight: '00',
             marginTop: '-1vh',
           }}>
-          Contact &nbsp;:&nbsp;
+          Contact :
         </h2>
         <input type='number' placeholder='Contact no' onChange={handlePassword} className='input1' title='Please fill Your Password' required style={{ width: '20vh', marginTop: '2vh' }} />
       </div>
 
       <button onClick={checkAndPostStudent} style={{ width: '70vw' }} className='green-button'>
-        <a>Book My Free Class!!</a>
+        <a>{info}</a>
       </button>
     </div>
   );

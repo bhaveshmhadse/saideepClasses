@@ -32,7 +32,7 @@ const App = () => {
           <Route exact path='/saideepClasses'>
             {showStudent && (
               <div style={{ width: '100vw', height: '110vh', margin: 0, padding: '2rem', display: 'flex', backdropFilter: 'blur(20px)', position: 'fixed', zIndex: 999, top: '0vh' }}>
-                <Student display='block' />
+                <Student content='Book My Free Class!' />
                 <button
                   className='closeButton'
                   onClick={() => {

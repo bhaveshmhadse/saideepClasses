@@ -9,7 +9,6 @@
   border-radius: 0.5rem;
   background-color: rgb(255, 255, 255);
   filter: drop-shadow(10px 10px 5px lightgrey);
-  /* transition: all ease-in-out 1000ms; */
 }
 
 .standard:hover {
@@ -27,7 +26,7 @@
   user-select: none;
   border-left-color: gold;
   border-left-style: solid;
-  border-left-width: 1.1vh;
+  border-left-width: 2vw;
 }
 
 .name {

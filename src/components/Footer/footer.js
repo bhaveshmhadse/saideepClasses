@@ -42,7 +42,6 @@ const Footer = () => {
       </h1>
       <p
         style={{
-          // textAlign: 'left',
           fontSize: '1rem',
           fontWeight: '700',
           paddingRight: '1rem',
@@ -55,13 +54,12 @@ const Footer = () => {
             marginLeft: '1rem',
             color: 'grey',
           }}
-          href='https://www.wa.me/+919136298868'>
-          9136298868
+          href='https://wa.me/+918850430042'>
+          8850430042
         </a>
       </p>
       <p
         style={{
-          // textAlign: 'left',
           fontSize: '1rem',
           fontWeight: '700',
           paddingRight: '1rem',
@@ -70,11 +68,10 @@ const Footer = () => {
         }}>
         <a
           style={{
-            // marginLeft: '1rem',
             color: 'grey',
           }}
-          href='https://www.wa.me/+919136298868'>
-          9136298868
+          href='https://www.wa.me/+918850326407'>
+          8850326407
         </a>
       </p>
 

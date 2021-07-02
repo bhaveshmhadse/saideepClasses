@@ -21,7 +21,7 @@ const NavBar = () => {
         style={{
           marginTop: '0',
           background: 'gold',
-          filter: 'drop-shadow(10px 10px 20px grey)',
+          filter: 'drop-shadow(10px 10px 100px black)',
         }}
         className={`normal ${visibility}`}>
         <button style={{ borderColor: 'transparent' }} className='sidebarbutton' onClick={() => setVisibility('hide')}>
