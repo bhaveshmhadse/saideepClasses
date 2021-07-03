@@ -47,7 +47,7 @@ const Student = props => {
       };
       let data = await await axios.post(URLL + '/students', Person);
       console.log(data);
-      alert('Thankyou, your free class is Booked! \nCheck your mail');
+      alert(`Thankyou ${name}, your free class is Booked! \nCheck your Gmail`);
     } else {
       alert('Please fill all the fields!!');
     }
@@ -150,7 +150,7 @@ const Student = props => {
         <input type='number' placeholder='Contact no' onChange={handlePassword} className='input1' title='Please fill Your Password' required style={{ width: '20vh', marginTop: '2vh' }} />
       </div>
 
-      <button onClick={checkAndPostStudent} style={{ width: '70vw' }} className='green-button'>
+      <button onClick={checkAndPostStudent} style={{ width: '65vw', marginBottom: '4vh' }} className='green-button'>
         <a>{info}</a>
       </button>
     </div>
