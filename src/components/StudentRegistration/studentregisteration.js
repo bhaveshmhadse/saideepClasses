@@ -21,26 +21,28 @@ const StudentReg = () => {
           </button>
         </div>
       )}
-      <h1 style={{ borderRadius: '.3rem' }} className='courses'>
+      <h1 style={{ marginTop: '-3vh', marginBottom: '-5vh', borderRadius: '.3rem' }} className='courses'>
         Online Faculty
       </h1>
       <div style={{ width: 'auto', height: 'auto', marginTop: '10vh' }}>
-        <img className='slide-in-first' style={{ border: '0.001px solid lightgrey' }} src={OnlineStudy} alt='Teaching' />
-        <img className='slide-in-second' style={{ border: '0.001px solid lightgrey' }} src={GuySittingOnBooks} alt='Man Sitting' />
+        <img loading='lazy' className='slide-in-first' style={{ border: '0.001px solid lightgrey' }} src={OnlineStudy} alt='Teaching' />
+        <img loading='lazy' className='slide-in-second' style={{ border: '0.001px solid lightgrey' }} src={GuySittingOnBooks} alt='Man Sitting' />
       </div>
       <div style={{ textAlign: 'center', marginTop: '4vh' }}>
         <p style={{ marginTop: '-5vh', textAlign: 'justify', padding: '2vh' }}>
           Due to Rising <important>Covid</important> situation we have been taking lectures through Online medium. There is an Excellent Faculty by us to educate Students.
           <p
-            className='left'
+            className='courses'
             style={{
               width: 'auto',
+              height: '2vh',
               marginTop: '5vh',
               textAlign: 'left',
-              fontSize: '1.5rem',
+              borderLeftWidth: '1vw',
+              fontSize: '5vw',
               paddingLeft: '1rem',
             }}>
-            <important className='left'>Benifits:</important>
+            Benifits:
           </p>
           <ul
             style={{
@@ -49,16 +51,16 @@ const StudentReg = () => {
               textDecoration: 'none',
               listStyle: 'outside',
             }}>
-            <li style={{ textAlign: 'left', marginBottom: '.6rem' }} className='right'>
+            <li style={{ textAlign: 'left', marginBottom: '.6rem', borderRightWidth: '.6vw' }} className='right'>
               Regular Online Lectures
             </li>
-            <li style={{ textAlign: 'left', marginBottom: '.6rem' }} className='right'>
+            <li style={{ textAlign: 'left', marginBottom: '.6rem', borderRightWidth: '.6vw' }} className='right'>
               24/7 Students Doubt Solving
             </li>
-            <li style={{ textAlign: 'left', marginBottom: '.6rem' }} className='right'>
+            <li style={{ textAlign: 'left', marginBottom: '.6rem', borderRightWidth: '.6vw' }} className='right'>
               Weekly Mock Test/Exams
             </li>
-            <li style={{ textAlign: 'left', marginBottom: '.6rem' }} className='right'>
+            <li style={{ textAlign: 'left', marginBottom: '.6rem', borderRightWidth: '.6vw' }} className='right'>
               Study Material Notes Provided
             </li>
           </ul>

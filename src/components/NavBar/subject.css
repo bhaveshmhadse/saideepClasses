@@ -38,7 +38,6 @@
   margin: 0;
   height: 15vh;
   display: flex;
-  /* background-color: grey; */
   background-color: rgb(238, 238, 27);
 }
 
@@ -52,13 +51,11 @@
   border-width: 1px;
   background: transparent;
   box-shadow: 0 1px 8px rgb(114, 114, 114);
-  /* float: left; */
+  transition: all ease-in-out 200ms;
 }
 
 .navbar button:hover {
-  transform: rotate(180deg);
-  border-radius: 100rem;
-  transition: all ease-in-out 1s;
+  transform: translateY(-1vh);
 }
 
 .sidebar {

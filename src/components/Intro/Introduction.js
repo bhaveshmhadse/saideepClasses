@@ -45,21 +45,8 @@ const Intro = () => {
                 setShowStudent(true);
                 setContent('Free Notes');
               }}
-              style={{
-                fontSize: '1rem',
-                marginTop: '5vh',
-                marginBottom: '5vh',
-                padding: '.5rem',
-                width: '70vw',
-                borderRadius: '.5rem',
-                outline: 'none',
-                float: 'center',
-                background: '#1fd05d',
-                borderColor: 'transparent',
-                color: 'white',
-                fontWeight: '900',
-                filter: 'drop-shadow(10px 15px 10px rgb(205, 205, 205))',
-              }}>
+              style={{ width: '40vw' }}
+              className='green-button'>
               {Content}
             </button>
           </div>

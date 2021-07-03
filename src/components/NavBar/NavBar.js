@@ -19,6 +19,18 @@ const NavBar = () => {
     <div style={{ background: 'gold' }}>
       <div
         style={{
+          height: '8vh',
+          margin: '0',
+        }}
+        className='navbar'>
+        <button style={{ borderColor: 'transparent', boxShadow: 'none' }} onClick={() => setVisibility('show')}>
+          <img alt='Hamburger' style={{ width: '3.5vh' }} src={HamBurger}></img>
+        </button>
+        <img alt='Flower' src={Flower} className='rotate'></img>
+        <h1>Saideep Classes</h1>
+      </div>
+      <div
+        style={{
           marginTop: '0',
           background: 'gold',
           filter: 'drop-shadow(10px 10px 100px black)',
@@ -125,19 +137,6 @@ const NavBar = () => {
             </Link>
           </div>
         </ul>
-      </div>
-
-      <div
-        style={{
-          height: '8vh',
-          margin: '0',
-        }}
-        className='navbar'>
-        <button style={{ borderColor: 'transparent', boxShadow: 'none' }} onClick={() => setVisibility('show')}>
-          <img alt='Hamburger' style={{ width: '3.5vh' }} src={HamBurger}></img>
-        </button>
-        <img alt='Flower' src={Flower} className='rotate'></img>
-        <h1>Saideep Classes</h1>
       </div>
     </div>
   );
