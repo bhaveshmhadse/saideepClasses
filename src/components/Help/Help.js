@@ -28,7 +28,7 @@ const Help = () => {
 
   return (
     <div className='form' style={{ width: '60vw', height: 'auto', padding: '1.2rem' }}>
-      <p style={{ fontSize: '3.4vh', padding: '1rem', textAlign: 'left' }}>Submit Your Queris Here and we will get back to you soon :</p>
+      <p style={{ fontSize: '3.4vh', padding: '1rem', textAlign: 'left' }}>Submit Your Queries Here and we will get back to you soon :</p>
       <input
         value={Null}
         type='text'
